@@ -6,7 +6,7 @@ function header() {
     return (
         <div className="header">
             <h2>I am a header</h2>
-            <PersonIcon />
+            <PersonIcon fontSize="large" className="header_icon"/>
         </div>
     );
 }
